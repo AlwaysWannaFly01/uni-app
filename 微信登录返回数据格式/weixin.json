@@ -1,0 +1,29 @@
+/* uni.login返回res的结果 */
+
+{
+	"authResult": {
+		"access_token": "36_h1uuw8DS8cQU3iLpw1C9Z3b-Gs2g52lMIfyjjP2vOBG9XCi9CcP6zK0WN-GCl5HixQ64VjcrCSlNQ9XRRfX7e4LXL7OGbBLeAtLwhdmyqvA",
+		"expires_in": 7200,
+		"refresh_token": "36_TOlmftLaxoRWs6Vg2Gb0orBL1SaTFPJMorEqslbqFqt__s1kGCvwoBf_FwKvvrTdV6G4Xt3zMW23SUlpwiB481WkNPCNLHlDWcwfE_B9SNg",
+		"openid": "oRrdQt5bw5_2jyOf-bCVQOMXmpg8",
+		"scope": "snsapi_userinfo",
+		"unionid": "oU5Yyt0eb3K8lK32AUHjNr-LnXuQ"
+	},
+	"errMsg": "login:ok"
+}
+
+/* uni.getUserInfo返回success的info的结果 */
+
+{
+	"errMsg": "getUserInfo:ok",
+	"userInfo": {
+		"openId": "oRrdQt5bw5_2jyOf-bCVQOMXmpg8",
+		"nickName": "DreamPure",
+		"gender": 1,
+		"city": "武汉",
+		"province": "湖北",
+		"country": "中国",
+		"avatarUrl": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJsESABgxFLkjOibRQALYQ7mzY4ybr1V8uGVic7iaW4NGQ64zw94mNHdugzXgficXbdJ4Z5R2PiaxicTPBA/132",
+		"unionId": "oU5Yyt0eb3K8lK32AUHjNr-LnXuQ"
+	}
+}
