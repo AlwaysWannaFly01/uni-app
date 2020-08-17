@@ -8,7 +8,7 @@ Vue.prototype.checkLogin = function(backpage, backtype) {
 	var SNAME = uni.getStorageSync('SNAME');
 	var SFACE = uni.getStorageSync('SFACE');
 
-	// backpage : 登录后返回的页面
+	// backpage : 登录后返回的页面11
 	// backtype : 打开页面的类型[1 : redirectTo 2 : switchTab]
 
 	if (SUID === '' || SRAND === '' || SFACE === '') {
