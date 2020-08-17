@@ -20,8 +20,8 @@ Vue.prototype.checkLogin = function(backpage, backtype) {
 	return [SUID, SRAND, SNAME, SFACE];
 }
 let APITOKEN = 'api2020';
-// Vue.prototype.apiServer = 'http://192.168.2.95/index.php?token=' + APITOKEN + '&c='
-Vue.prototype.apiServer = 'http://3o355g2195.wicp.vip/index.php?token=' + APITOKEN + '&c='
+Vue.prototype.apiServer = 'http://192.168.2.95/index.php?token=' + APITOKEN + '&c='
+// Vue.prototype.apiServer = 'http://3o355g2195.wicp.vip/index.php?token=' + APITOKEN + '&c='
 
 App.mpType = 'app'
 
