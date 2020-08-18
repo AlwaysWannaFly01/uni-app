@@ -154,7 +154,9 @@ var loginRes;var _default =
 
   },
   onLoad: function onLoad(options) {
+    // console.log(options);
     loginRes = this.checkLogin('../../write/write', '2');
+    // console.log(loginRes);	
     if (!loginRes) {
       return;
     }

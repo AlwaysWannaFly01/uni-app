@@ -1,6 +1,6 @@
 <template>
 	<view>
-
+		WRITE
 	</view>
 </template>
 
@@ -13,7 +13,9 @@
 			};
 		},
 		onLoad(options) {
+			// console.log(options);
 			loginRes = this.checkLogin('../../write/write', '2');
+			// console.log(loginRes);	
 			if (!loginRes) {
 				return;
 			}

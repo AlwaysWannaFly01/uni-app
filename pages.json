@@ -42,7 +42,7 @@
 			"pagePath": "pages/my/my",
 			"iconPath": "static/img/nav3.png",
 			"selectedIconPath": "static/img/nav3-a.png",
-			"text": "写作"
+			"text": "我的"
 		}]
 	}
 }

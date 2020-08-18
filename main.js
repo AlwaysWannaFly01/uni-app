@@ -8,9 +8,8 @@ Vue.prototype.checkLogin = function(backpage, backtype) {
 	var SNAME = uni.getStorageSync('SNAME');
 	var SFACE = uni.getStorageSync('SFACE');
 
-	// backpage : 登录后返回的页面11
+	// backpage : 登录后返回的页面
 	// backtype : 打开页面的类型[1 : redirectTo 2 : switchTab]
-
 	if (SUID === '' || SRAND === '' || SFACE === '') {
 		uni.redirectTo({
 			url: "/pages/login/login?backpage=" + backpage + '&backtype=' + backtype
@@ -20,7 +19,7 @@ Vue.prototype.checkLogin = function(backpage, backtype) {
 	return [SUID, SRAND, SNAME, SFACE];
 }
 let APITOKEN = 'api2020';
-Vue.prototype.apiServer = 'http://192.168.2.95/index.php?token=' + APITOKEN + '&c='
+Vue.prototype.apiServer = 'http://192.168.2.98/index.php?token=' + APITOKEN + '&c='
 // Vue.prototype.apiServer = 'http://3o355g2195.wicp.vip/index.php?token=' + APITOKEN + '&c='
 
 App.mpType = 'app'

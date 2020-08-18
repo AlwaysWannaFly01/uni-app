@@ -19,7 +19,6 @@ _vue.default.prototype.checkLogin = function (backpage, backtype) {
 
   // backpage : 登录后返回的页面
   // backtype : 打开页面的类型[1 : redirectTo 2 : switchTab]
-
   if (SUID === '' || SRAND === '' || SFACE === '') {
     uni.redirectTo({
       url: "/pages/login/login?backpage=" + backpage + '&backtype=' + backtype });
@@ -29,7 +28,7 @@ _vue.default.prototype.checkLogin = function (backpage, backtype) {
   return [SUID, SRAND, SNAME, SFACE];
 };
 var APITOKEN = 'api2020';
-_vue.default.prototype.apiServer = 'http://192.168.2.95/index.php?token=' + APITOKEN + '&c=';
+_vue.default.prototype.apiServer = 'http://192.168.2.98/index.php?token=' + APITOKEN + '&c=';
 // Vue.prototype.apiServer = 'http://3o355g2195.wicp.vip/index.php?token=' + APITOKEN + '&c='
 
 _App.default.mpType = 'app';
